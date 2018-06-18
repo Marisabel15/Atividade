@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Passar Dados</string>
+    <string name="escreva_um_texto">Escreva um texto:</string>
+    <string name="enviar">enviar</string>
+    <string name="texto_enviado">Texto Enviado!</string>
+    <string name="digite_aqui">Digite aqui</string>
+</resources>
