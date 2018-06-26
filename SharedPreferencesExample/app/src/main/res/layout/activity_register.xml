@@ -11,7 +11,7 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="350dp"
-        android:layout_height="260dp"
+        android:layout_height="300dp"
         android:layout_centerHorizontal="true"
         android:orientation="vertical"
         android:background="@drawable/border"
@@ -19,16 +19,16 @@
         android:layout_marginBottom="600dp"
         android:layout_marginLeft="60dp">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/apple_image"
-            android:layout_marginTop="0dp"
-            android:layout_marginLeft="150dp"
-            />
+    <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/apple_image"
+         android:layout_marginTop="0dp"
+         android:layout_marginLeft="150dp"
+         />
 
 
-        <EditText
+    <EditText
         android:id="@+id/user_name"
         android:layout_width="320dp"
         android:layout_height="60dp"
@@ -40,6 +40,19 @@
         android:textColorHint="#696969"
         android:inputType="textPersonName"
         />
+
+    <EditText
+        android:id="@+id/user_email"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="E-mail"
+        android:textColor="#696969"
+        android:textColorHint="#696969"
+        android:inputType="textEmailAddress"
+            />
 
     <EditText
         android:id="@+id/user_password"
@@ -54,34 +67,20 @@
         android:inputType="textPassword"
         />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="320dp"
-        android:layout_height="40dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="10dp"
-        android:background="#FF4500"
-        android:textSize="12dp"
-        android:textColor="#FFFFFF"
-        android:onClick="loginUser"
-        android:text="Sign In"
-        />
 
     <Button
-        android:id="@+id/button_01"
-        android:layout_width="320dp"
-        android:layout_height="40dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="10dp"
-        android:textSize="12dp"
-        android:textColor="#696969"
-        android:background="#FFFFFF"
-        android:onClick="registerUser"
-        android:text="Create account"
-       />
+            android:id="@+id/button_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="10dp"
+            android:textSize="12dp"
+            android:textColor="#FFFFFF"
+            android:background="#FF4500"
+            android:onClick="registerUser"
+            android:text="Create"
+            />
 
     </LinearLayout>
-
-
 
 </RelativeLayout>

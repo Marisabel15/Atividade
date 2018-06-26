@@ -40,11 +40,26 @@
                                           </PersistentState>
                                         </value>
                                       </entry>
+                                      <entry key="image">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="paddingPercent" value="5" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
                                     </map>
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="outputName" value="ic_action_useruser" />
+                                      <entry key="assetType" value="IMAGE" />
+                                      <entry key="imageAsset" value="C:\Users\srtal\Desktop\apple.png" />
+                                      <entry key="outputName" value="apple_image" />
+                                      <entry key="theme" value="CUSTOM" />
+                                      <entry key="themeColor" value="a60f11" />
                                     </map>
                                   </option>
                                 </PersistentState>

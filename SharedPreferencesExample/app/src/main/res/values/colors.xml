@@ -3,7 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="colorMaroon4">#8B1C62</color>
-    <color name="colorMistyRose1">#FFE4E1</color>
+    <color name="MidnightBlue">#191970</color>
+    <color name="colorOrangeRed1">#FF4500</color>
     <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="grey41">#696969</color>
 </resources>
