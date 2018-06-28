@@ -19,21 +19,12 @@
         android:layout_marginBottom="600dp"
         android:layout_marginLeft="60dp">
 
-    <ImageView
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
-         android:src="@drawable/apple_image"
-         android:layout_marginTop="0dp"
-         android:layout_marginLeft="150dp"
-         />
-
-
     <EditText
         android:id="@+id/user_name"
         android:layout_width="320dp"
         android:layout_height="60dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="-8dp"
+        android:layout_marginTop="20dp"
         android:ems="10"
         android:hint="Name"
         android:textColor="#696969"
@@ -95,5 +86,13 @@
             />
 
     </LinearLayout>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/apple_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        />
 
 </RelativeLayout>

@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
 
-    <FrameLayout
+    <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="350dp"
@@ -20,21 +20,13 @@
         android:layout_marginBottom="600dp"
         android:layout_marginLeft="60dp">
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/apple_image"
-        android:layout_marginLeft="170dp"
-        android:layout_marginTop="0dp"
-        />
-
 
     <EditText
         android:id="@+id/user_name"
         android:layout_width="320dp"
         android:layout_height="60dp"
         android:layout_marginLeft="15dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="30dp"
         android:ems="10"
         android:hint="User Name"
         android:textColor="#696969"
@@ -47,7 +39,7 @@
         android:layout_width="320dp"
         android:layout_height="60dp"
         android:layout_marginLeft="15dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="0dp"
         android:ems="10"
         android:hint="Password"
         android:textColor="#696969"
@@ -60,7 +52,7 @@
         android:layout_width="320dp"
         android:layout_height="40dp"
         android:layout_marginLeft="15dp"
-        android:layout_marginTop="160dp"
+        android:layout_marginTop="10dp"
         android:background="#FF4500"
         android:textSize="12dp"
         android:textColor="#FFFFFF"
@@ -73,7 +65,7 @@
         android:layout_width="320dp"
         android:layout_height="40dp"
         android:layout_marginLeft="15dp"
-        android:layout_marginTop="210dp"
+        android:layout_marginTop="10dp"
         android:textSize="12dp"
         android:textColor="#696969"
         android:background="#FFFFFF"
@@ -81,8 +73,14 @@
         android:text="Create account"
        />
 
-    </FrameLayout>
+    </LinearLayout>
 
-
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/apple_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        />
 
 </RelativeLayout>
