@@ -8,9 +8,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+//import android.widget.RelativeLayout;
 import android.widget.TextView;
 import java.util.List;
-
+//import de.hdodenhof.circleimageview.CircleImageView;
 
 
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolder> {
@@ -67,6 +68,8 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         TextView tv_produtos_title;
         ImageView img_produtos_thumbnail;
         CardView cardView ;
+        //CircleImageView image;
+        //RelativeLayout parentLayout;
 
         public MyViewHolder(View itemView) {
             super(itemView);
